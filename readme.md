@@ -1,6 +1,6 @@
 # User Login 
 
-## Guidence 
+## Guidance 
 
 How to create your first login page with HTML, CSS and JavaScript
 
