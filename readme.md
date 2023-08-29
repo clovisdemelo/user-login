@@ -20,3 +20,4 @@ https://www.frontendmentor.io/
 https://fonts.google.com/specimen/Roboto
 https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_flexible_box_layout/Basic_concepts_of_flexbox
 https://storyset.com/
+https://www.w3schools.com/tags/tag_input.asp

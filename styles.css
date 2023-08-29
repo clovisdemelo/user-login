@@ -2,78 +2,100 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:ital,wght@0,100;0,300;1,100;1,300&display=swap');
 
 
 body {
     margin: 0;
-    font-family: "Roboto" sans-serif;
+    font-family: "Open Sans", sans-serif;
 }
 
 h1 {
     margin: 0;
-}
-
-.main-container {
-    background-color: rgb(141, 45, 231);
-    height: 100vh;
-    width: 100vw;
-    display: flex;
    
 }
 
-/* Lef container */
-
-.box-container-left{
+.main-container {
     background-color: #2b2045;
-    height: 100%;
-    width: 50%;
+    height: 100vh;
+    width: 100vw;
     display: flex;
     justify-content: center;
-    flex-direction: column;
-    
+    align-items: center;
+   
+   
 }
 
-.heading-box-container-left {
-    text-align: center;
-    font-weight: 200;   
-}
+/* Left container */
 
-.heading-box-container-left > h1 {
-    color: #77ffc0;
-}
-
-
-.image-container {
-    background-color: bisque;
-    width: 35vw;
+.box-container-left{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
     justify-content: center;
-    text-align: center;
-    background-image: url(./assets/images/Astronaut-cuate.png);
+    align-items: center;
+    flex-direction: column;   
+}
+
+
+.box-container-left > h1 {
+    color: #77ffc0;
+    font-size: 4vh;
+}
+
+
+.image-asset {
+   height: 800px;
+   width: 800px;
+    
 }
 
 
 /* Right container */
 
 .box-container-right{
-    background: #2b2045;
-    height: 100%;
-    width: 50%;
-    text-align: center;
+   
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+
+
+.card-login {
+    background: #5d3ea7;
+    width: 60%; /* 60% of 50vw which is the parent div box-container-right */
+    height: 30%;
     display: flex;
     justify-content: center;
-    flex-direction: column;
-      
-}
-
-
-.heading-box-container-right {
-    background: brown;
     text-align: center;
-    height: 30%;
+    flex-direction: column;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #3f252500;
+}
+
+.card-login > h1 {
+    color: #00ff88;
+    font-weight: 800;
+    margin: 0;
+
+}
+
+.card-login-user {
+    background: #77ffc0;
+    height: 50%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 
-.login-box {
-    background: goldenrod;
-    height: 30%;
+.login-button {
+  background-color: red;
+    
 }
